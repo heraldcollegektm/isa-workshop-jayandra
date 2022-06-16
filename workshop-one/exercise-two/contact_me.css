@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.form {
+    height: 485px;
+    width: 50%;
+    background: #151c1b42;
+    margin: 80px 0px 0px 308px;
+    border-radius: 53px;
+}
+
+.form .get {
+    margin: 17px 20px 13px 133px;
+    padding: 4px 7px 7px 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    color: #33f40b8a;
+
+    cursor:pointer;
+}
+
+input {
+    font-size: 14px;
+    height: 22px;
+    width: 353px;
+
+}
+body{
+    background:url(Backg.jpg) no-repeat center center/cover;
+}

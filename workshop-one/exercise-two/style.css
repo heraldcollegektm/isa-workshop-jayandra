@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 46px;
+    background: black;
+    margin: -10px 0px 0px 0px;
+}
+
+header .navbar ul {
+
+    display: flex;
+}
+
+header .navbar ul li {
+    margin: 20px;
+    list-style: none;
+    font-size: 17px;
+}
+
+header .navbar ul li a {
+    text-decoration: none;
+    color: green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition:all 0.5s ease;
+}
+
+header .navbar ul li a:hover {
+    color: white;
+    
+}
+
+
+/* Section Part  */
+section {
+    background: url(Backg.jpg) no-repeat center center/cover;
+    height: 800px;
+    width: 100%;
+}
+
+img {
+    height: auto;
+    width: 163px;
+    float: right;
+    margin: 8px 0px 0px 500px;
+    border: 1px aqua;
+    border-radius: 76px;
+    border: none;
+}
+
+.change {
+    /* color: white; */
+    padding: 160px 12px 8px 310px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1 {
+    color: white;
+}
+
+footer {
+    background: black;
+    height: 36px;
+    padding: 10px 5px 0px 7px;
+}
+
+
+
+.center {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.center:hover {
+    color: green;
+    cursor: pointer;
+
+}
